@@ -1,0 +1,133 @@
+/* Pengaturan Global */
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/poppins.woff2);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins';
+}
+
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.baris {
+    display: flex;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    margin: 30px;
+}
+
+p.sub {
+    font-size: 18px;
+    width: 800px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+img,
+video {
+    max-width: 100%;
+}
+
+/* Navigasi */
+
+nav {
+    background-color: rgb(3, 51, 3);
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+nav .baris {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.logo {
+    height: 40px;
+}
+
+nav button {
+    width: 100px;
+    height: 30px;
+}
+
+.navigasi {
+    display: flex;
+    list-style: none;
+    margin-right: 40px;
+    align-items: center;
+    margin-left: auto;
+}
+
+.navigasi li {
+    width: 100px;
+}
+
+.navigasi li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Header 
+
+header {
+    padding-left: 50px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+header .baris {
+    display: flex;
+    align-items: center;
+}
+
+header .kiri {
+    width: 50%;
+    padding-right: 100px;
+}
+
+header .kanan {
+    width: 50%;
+}
+
+header .kiri h1 {
+    margin-bottom: 25px;
+}
+
+header .kiri p.tagline {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+header .kiri .cta p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+header .kiri .cta img {
+    height: 50px;
+}
+
+
+/* Coba Praktek Dari Sini  */

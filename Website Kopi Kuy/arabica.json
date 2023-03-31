@@ -1,0 +1,30 @@
+[
+    {
+        "nama": "Kopi Arabika Spesial Sidikalang",
+        "size": "1.000 Gram",
+        "harga": "148.000",
+        "foto": "images\/produk\/product_capuchino.jpg",
+        "link": "https:\/\/www.tokopedia.com\/sopic-store\/kopi-arabika-sidikalang-1000-gr-biji"
+    },
+    {
+        "nama": "Kopi Arabica Aceh Gayo Super",
+        "size": "500 Gram",
+        "harga": "58.000",
+        "foto": "images\/produk\/product_espresso.jpg",
+        "link": "https:\/\/www.tokopedia.com\/sopic-store\/kopi-arabica-aceh-gayo-super-500-gr-bubuk-kasar"
+    },
+    {
+        "nama": "Kopi Arabica Gayo Honey Process",
+        "size": "1.000 Gram",
+        "harga": "200.000",
+        "foto": "images\/produk\/product_kopi_susu.jpg",
+        "link": "https:\/\/www.tokopedia.com\/sopic-store\/kopi-arabica-gayo-honey-process-1-kg-bubuk-halus"
+    },
+    {
+        "nama": "Kopi Arabica Gayo Premium Specialty",
+        "size": "200 Gram",
+        "harga": "49.000",
+        "foto": "images\/produk\/product_latte.jpg",
+        "link": "https:\/\/www.tokopedia.com\/sopic-store\/kopi-arabica-gayo-premium-specialty-200-gr-bubuk-biji-grosir-biji"
+    }
+]

@@ -1,0 +1,185 @@
+body {
+    margin:0;
+    padding:20px 40px;
+    max-width: 800px;
+    margin: auto;
+}
+
+body > * {
+    box-sizing: border-box;
+}
+
+textarea:not(.notextarea), .textarea {
+    width: 100%;
+    height: 30px;
+    resize: none;
+    background-color: #252525;
+    color: #fff;
+    padding: 5px 10px;
+    margin-bottom: 10px ;
+    font-family:monospace;
+}
+
+.h-95 {
+    height:120px !important;
+}
+
+.h-80 {
+    height:80px !important;
+}
+
+.h-110 {
+    height:110px !important;
+}
+
+nav::before {
+    content: "<nav> digunakan untuk: "
+}
+
+nav ul {
+    margin-top:5px;
+}
+
+header,section, body > div:not(.textarea), footer {
+    margin-bottom: 15px;
+}
+
+header::before {
+    content:"<header> "
+}
+
+footer::before {
+    content:"<footer> "
+}
+
+section::before {
+    content:"<section> "
+}
+
+body > div:not(.textarea)::before {
+    content:"<div> "
+}
+
+a {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+a::before {
+    content: "<a> "
+}
+
+h1,h2,h3,p {
+    position: relative;
+    margin-top:0;
+}
+
+h1:not(.h1)::before {
+    content:"<h1> "
+}
+
+.h1 {
+    text-align: center;
+    color: red;
+    padding-bottom: 30px;
+    margin-top: 40px;
+}
+.h1::after {
+    content:"";
+    width:100%;
+    height:40px;
+    display: block;
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+
+h2::before {
+    content: "<h2> ";
+}
+
+h3::before {
+    content: "<h3><h4><h5><h6> ";
+}
+
+p::before {
+    content: "<p> ";
+}
+
+strong::before {
+    content: "<strong> ";
+}
+
+p > * {
+    display: block;
+    text-indent: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+span::before {
+    content:"<span> "
+}
+
+ul,ol {
+    padding-left: 0;
+}
+
+body > ul:before {
+    content:"<ul> digunakan untuk menampung <li> sebagai "
+}
+body > ol:before {
+    content:"<ol> digunakan untuk menampung <li> sebagai "
+}
+
+ul li, ol li {
+    margin-left:30px;
+}
+
+img {
+    max-width: 150px;
+    margin-bottom: 30px;
+}
+
+video {
+    max-width:300px;
+    margin-bottom: 30px;
+}
+
+iframe {
+    width:100%;
+    height: 200px;
+    margin: 15px 0px 30px 0px;
+    padding: 0;
+}
+
+input[type=text], input[type=password], input[type=range], select, button, textarea {
+    height: 30px;
+    min-width: 500px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 15px;
+    display: block;
+}
+
+textarea {
+    height: 60px;
+}
+
+input[type=range] {
+    padding: 0;
+}
+
+input[type=radio], input[type=checkbox] {
+    margin-bottom: 16px;
+    height: 18px;
+    width: 18px;
+    vertical-align: top;
+    margin-top: 0px;
+}
+
+button {
+    min-width: 100px;
+}
